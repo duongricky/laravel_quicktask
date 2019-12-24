@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
  * Show Task Dashboard
  */
 Route::get('/', function () {
-    return view('task');
+    return view('tasks');
 });
 
 /**
